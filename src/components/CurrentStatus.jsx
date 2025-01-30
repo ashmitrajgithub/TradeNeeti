@@ -37,7 +37,7 @@ function CurrentStatus() {
           <ul className="grid grid-cols-1 gap-5 items-center md:grid-cols-2 lg:grid-cols-3 md:p-8 ">
             
             {/* Certified GTF Traders */}
-            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-red-400 hover:text-white ">
+            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-gray-200 ">
               <div className="flex gap-5 justify-start">
                 <figure>
                   <img 
@@ -64,7 +64,7 @@ function CurrentStatus() {
             </li>
 
             {/* Followers */}
-            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-red-400 hover:text-white">
+            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-gray-200 ">
               <div className="flex gap-5 justify-start">
                 <figure>
                   <img 
@@ -91,7 +91,7 @@ function CurrentStatus() {
             </li>
 
             {/* Team */}
-            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-red-400 hover:text-white">
+            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-gray-200 ">
               <div className="flex gap-5 justify-start">
                 <figure>
                   <img 
@@ -118,7 +118,7 @@ function CurrentStatus() {
             </li>
 
             {/* GTF Trader Community */}
-            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-red-400 hover:text-white">
+            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-gray-200 ">
               <div className="flex gap-5 justify-start">
                 <figure>
                   <img 
@@ -145,7 +145,7 @@ function CurrentStatus() {
             </li>
 
             {/* YouTube */}
-            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-red-400 hover:text-white">
+            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-gray-200 ">
               <div className="flex gap-5 justify-start">
                 <figure>
                   <img 
@@ -172,7 +172,7 @@ function CurrentStatus() {
             </li>
 
             {/* App Downloads */}
-            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-red-400 hover:text-white">
+            <li className="bg-white p-3 rounded-full transition-colors duration-300 hover:bg-gray-2000 hover:bg-gray-200">
               <div className="flex gap-5 justify-start">
                 <figure>
                   <img 

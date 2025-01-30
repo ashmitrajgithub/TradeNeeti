@@ -9,42 +9,42 @@ export default function Faculty() {
     {
       name: "Ashmit Raj",
       role: "Professor of Literature",
-      image: "/TradeNeeti/assets/Ashmit1.png",
+      image: "public/assets/ashmit1.png",
       twitter: "#",
       linkedin: "#",
     },
     {
       name: "Aakash Kumar",
       role: "Senior Lecturer, Design",
-      image: "/TradeNeeti/assets/aakashbhaiya.png",
+      image: "public/assets/aakashbhaiya.png",
       twitter: "#",
       linkedin: "#",
     },
     {
       name: "Ashish Raj",
       role: "Head of Computer Science",
-      image: "/TradeNeeti/assets/sir3.png",
+      image: "public/assets/sir3.png",
       twitter: "#",
       linkedin: "#",
     },
     {
       name: "Akshat Raj",
       role: "Associate Professor, UX",
-      image: "/TradeNeeti/assets/sir3.png",
+      image: "public/assets/sir3.png",
       twitter: "#",
       linkedin: "#",
     },
     {
       name: "Ankit Kumar",
       role: "Dean of Human Resources",
-      image: "/TradeNeeti/assets/sir3.png",
+      image: "public/assets/sir3.png",
       twitter: "#",
       linkedin: "#",
     },
     {
       name: "Emma Dorsey",
       role: "Senior Researcher, AI",
-      image: "/TradeNeeti/assets/sir3.png",
+      image: "public/assets/sir3.png",
       twitter: "#",
       linkedin: "#",
     },
@@ -106,7 +106,7 @@ export default function Faculty() {
 
   return (
     <section
-      className="py-24 px-1 max-w-full"
+      className="pt-16 px-1 max-w-full faculty"
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
@@ -120,7 +120,7 @@ export default function Faculty() {
       </div>
 
       {/* Faculty Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-35 mb-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-35 mb-16">
         {displayedMembers.map((faculty) => (
           <div
             key={faculty.name}
@@ -128,16 +128,16 @@ export default function Faculty() {
             data-aos="fade-up"
           >
             {/* Profile Image */}
-            <div className="relative w-64 h-64 rounded-full shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 mb-2">
+            <div className="relative w-60 h-60 rounded-full shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 mb-2">
               <img src={faculty.image} alt={faculty.name} className="w-full h-full object-cover" />
             </div>
 
             {/* Name & Role */}
-            <h3 className="text-xl font-semibold mt-4 text-gray-800">{faculty.name}</h3>
+            <h3 className="text-xl font-semibold mt-3 text-gray-800">{faculty.name}</h3>
             <p className="text-gray-500">{faculty.role}</p>
 
             {/* Social Icons */}
-            <div className="flex space-x-4 mt-3 mb-8">
+            <div className="flex space-x-4 mt-2 mb-6">
               <a
                 href={faculty.twitter}
                 className="text-gray-500 hover:text-blue-500 transition-all duration-300"

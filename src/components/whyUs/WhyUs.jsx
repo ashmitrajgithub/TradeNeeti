@@ -61,7 +61,7 @@ function WhyUs() {
       <section className="relative flex flex-col items-center bg-[rgb(231,226,216)] md:py-8 lg:py-13">
         {/* Title with AOS animation */}
         <h2
-          className="text-center lg:mt-20 text-2xl m-9 md:pb-6 md:text-4xl font-bold"
+          className="text-center m-4 mt-9  lg:mt-12 text-2xl  md:pb-10 md:text-4xl font-bold"
           data-aos="zoom-in-right"
         >
           Ways I can help you
