@@ -1,0 +1,38 @@
+/* .image-slider-container {
+  margin-top: 6rem;
+  height: 80vh; 
+  overflow: hidden;
+}
+
+.image-slide-item {
+  width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .image-slider-container {
+    margin-top: 5rem;
+    height: 70vh; 
+  }
+}
+
+@media (max-width: 768px) { 
+  .image-slider-container {
+    margin-top: 4rem;
+    height: 60vh;
+  }
+
+  .image-slide-item {
+    object-fit: cover; 
+  }
+}
+
+.button-position {
+  bottom: 5%;
+}
+
+@media (max-width: 768px) {
+  .button-position {
+    bottom: 3%; 
+  }
+} */
