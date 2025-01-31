@@ -13,10 +13,10 @@ const App = () => {
 
   // Professions with their respective GIFs and durations in milliseconds
   const professions = [
-    { text: "EXPIRY DAY STRATEGIES", gif: "/TradeNeeti/assets/animation/expirydaystrategies1.gif", duration: 6000 },
-    { text: "Option Buying & Selling", gif: "/TradeNeeti/assets/animation/optionbuyingselling1.gif", duration: 6000 },
-    { text: "Hedging & Risk Management", gif: "/TradeNeeti/assets/animation/hedgingandriskmanagement1.gif", duration: 6000 },
-    { text: "LEARN BULL BEAR TRAP", gif: "/TradeNeeti/assets/animation/learnbullbeartrap1.gif", duration: 6000 },
+    { text: "EXPIRY DAY STRATEGIES", gif: "/assets/animation/expirydaystrategies1.gif", duration: 6000 },
+    { text: "Option Buying & Selling", gif: "/assets/animation/optionbuyingselling1.gif", duration: 6000 },
+    { text: "Hedging & Risk Management", gif: "/assets/animation/hedgingandriskmanagement1.gif", duration: 6000 },
+    { text: "LEARN BULL BEAR TRAP", gif: "/assets/animation/learnbullbeartrap1.gif", duration: 6000 },
   ];
 
   const resetComponent = () => {
@@ -122,10 +122,10 @@ const App = () => {
         </div>
 
         <div className="overlay2">
-            <img src="/TradeNeeti/assets/main.jpg" alt="Overlay Shape" className="overlay-image1" />
+            <img src="/assets/main.jpg" alt="Overlay Shape" className="overlay-image1" />
             <div className="image-style">
-            <img src="/TradeNeeti/assets/main.jpg" alt="Overlay Shape" className="overlay-image2" />
-            <img src="/TradeNeeti/assets/main.jpg" alt="Overlay Shape" className="overlay-image2" />
+            <img src="/assets/main.jpg" alt="Overlay Shape" className="overlay-image2" />
+            <img src="/assets/main.jpg" alt="Overlay Shape" className="overlay-image2" />
             </div>
           </div>
 
@@ -152,7 +152,7 @@ const App = () => {
           </div>
 
           <div className="overlay">
-            <img src="/TradeNeeti/assets/main.jpg" alt="Overlay Shape" className="overlay-image" />
+            <img src="/assets/main.jpg" alt="Overlay Shape" className="overlay-image" />
           </div>
         </div>
       </section>

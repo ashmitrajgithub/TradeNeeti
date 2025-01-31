@@ -32,7 +32,7 @@ function ContactUs() {
         <div className="px-4 mx-auto relative bg-white overflow-hidden z-10">
             <div className="mx-auto flex flex-col lg:flex-row justify-around items-center ">
                 <div className="hidden lg:block z-20 " style={{ width: "500px", height: "500px" }}>
-                    <DotLottieReact src="/TradeNeeti/assets/lottieimage.lottie" loop autoplay />
+                    <DotLottieReact src="/assets/lottieimage.lottie" loop autoplay />
                 </div>
 
                 <div className="w-full md:w-4/5 lg:max-w-lg px-8 py-6 my-6 rounded-lg shadow-2xl z-20">

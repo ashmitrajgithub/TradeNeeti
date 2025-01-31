@@ -38,7 +38,7 @@ function Home() {
         </div>
         <div className="w-full bg-red-600 flex items-end justify-end mr-5">
           <img
-            src="/TradeNeetiAcademyassets/02.jpg"
+            src="/assets/02.jpg"
             alt="Logo"
             className="w-full object-contain"
           />

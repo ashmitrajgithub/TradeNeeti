@@ -52,7 +52,7 @@ function Header({ toggleLocationPopup }) {
       <header className="w-full p-2 px-5 sm:px-3  bg-[rgb(215,217,219)] md:pl-7 md:pr-7 top-9 fixed z-50 main-header headersecond">
         <div className="flex justify-between items-center">
           <div>
-            <img src="/TradeNeeti/assets/Tradeneeti_Logo.png" alt="TREADNEETI" className="h-7 w-auto sm:h-10" />
+            <img src="/assets/Tradeneeti_Logo.png" alt="TREADNEETI" className="h-7 w-auto sm:h-10" />
           </div>
           <div className="hidden md:flex justify-evenly gap-8 font-semibold">
             <a href="#">Home</a>

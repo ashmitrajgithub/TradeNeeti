@@ -6,22 +6,22 @@ const Courses = () => {
   useScrollAnimation();
   const promise = [
     {
-      image: "/TradeNeeti/assets/ctp1.webp",
+      image: "/assets/ctp1.webp",
       name: "Complete Traders Program (Offline)",
       detail: "Become the God of Trading with Trading Gods, join us at our Offline Centre. Learn, trade and make money live with us .",
     },
     {
-      image: "/TradeNeeti/assets/ctp.webp",
+      image: "/assets/ctp.webp",
       name: "Complete Traders Program (Hybrid)",
       detail: "Learn the art of trading while you are at your home attending live online classes with Trading Tigers .",
     },
     {
-      image: "/TradeNeeti/assets/job.webp",
+      image: "/assets/job.webp",
       name: "Job Assured Program",
       detail: "One of the fundamental principles of trading is risk management. Successful traders carefully manage their capital .",
     },
     {
-      image: "/TradeNeeti/assets/nisin.webp",
+      image: "/assets/nisin.webp",
       name: "NISM Certification",
       detail: "It conducts capacity building and advanced training programs for securities market participants, including regulators .",
     },
