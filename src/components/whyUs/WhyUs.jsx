@@ -12,31 +12,31 @@ function WhyUs() {
   const services = [
     {
       index: "1",
-      image: "/assets/011.jpg",
-      title: "Global Market Courses for Industry Excellence",
+      image: "/assets/why01.avif",
+      title: "Technology",
       description:
-        "We offer the most comprehensive global market courses, covering a wide range of industries. Our expert-designed programs provide in-depth insights, equipping professionals with essential skills and knowledge to stay ahead in today's competitive business environment.",
+        "Master advanced tools to improve your analysis, refine strategies, and elevate your trading performance, enabling better decision-making and more effective market engagements for optimal results and success.",
     },
     {
       index: "2",
-      image: "/assets/013.jpg",
-      title: "Empowering Independent and Profitable Traders",
+      image: "/assets/Whyus02.jpg",
+      title: "Psychology",
       description:
-        "We aim to create independent and consistently profitable traders by providing expert training, in-depth strategies, and practical tools. Our programs empower individuals to make informed decisions, manage risk effectively, and build a sustainable trading career.",
+        "Mastering your mindset in trading involves improving focus, controlling emotions, and building resilience. Practice mindfulness, maintain a growth mindset, embrace failure as learning, and develop strategies to manage stress and uncertainty.",
     },
     {
       index: "3",
-      image: "/assets/014.jpg",
-      title: "Global Financial Education and Mentorship",
+      image: "/assets/Whyus033.png",
+      title: "Education Center",
       description:
-        "We mentor students worldwide, offering diverse and comprehensive financial education. Our courses cover various financial concepts, from basic principles to advanced strategies, ensuring that learners gain the knowledge and skills needed to excel in global financial markets.",
+        "The Education Center offers 12+ comprehensive courses with hundreds of lessons designed to enhance your trading skills, covering various strategies, techniques, and market analysis to help you grow as a trader.",
     },
     {
       index: "4",
-      image: "/assets/01.jpg",
-      title: "Building a Community of Independent Traders",
+      image: "/assets/whyus044.jpg",
+      title: "Placement Support",
       description:
-        "Our goal is to create a strong trading community of independent traders, where individuals can share knowledge, insights, and strategies. By fostering collaboration and providing continuous support, we empower traders to achieve success and financial independence.",
+        "We provide comprehensive placement support for trading education, helping students connect with top trading firms, refine their skills, and prepare for interviews to secure rewarding positions in the financial industry.",
     },
   ];
 
@@ -64,7 +64,7 @@ function WhyUs() {
           className="text-center m-4 mt-9  lg:mt-12 text-2xl  md:pb-10 md:text-4xl font-bold"
           data-aos="zoom-in-right"
         >
-          Ways I can help you
+         What Makes <b>TNA Different?</b> 
         </h2>
 
         {/* Services List */}

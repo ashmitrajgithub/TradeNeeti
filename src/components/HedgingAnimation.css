@@ -52,7 +52,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    /* pointer-events: none; */
+    
     /* visibility:hidden; */
 }
 
@@ -162,7 +162,7 @@ html, body {
   right: 0;
   width: 0;
   height: 0;
-  pointer-events: none;
+  
   z-index: 1000;
 }
 
@@ -187,6 +187,8 @@ html, body {
         overflow: hidden;
         margin-left: 2vw;
         overflow: hidden;
+        position: relative;
+        z-index: 1000;
 }
 
 .home-button {
@@ -236,6 +238,7 @@ html, body {
     justify-content: center;
     /* transition: all 0.3s ease-in-out; Smooth animation */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    
 }
 
 .home-button-item button:hover {
@@ -554,7 +557,6 @@ html, body {
         padding-left: 10px;
         padding-right: 10px;
         height: 4.5vh;
-        border: 2px solid black;
         align-items: center;
         justify-content: center;
         background-color:green;

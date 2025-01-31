@@ -37,7 +37,7 @@ const WhyUsItems = ({ image, title, description, isReverse }) => {
           </h3>
           <p
             data-aos="fade-up"  // Apply AOS to the description
-            className="text-base font-thin leading-relaxed text-gray-600 pb-8 text-justify"
+            className="text-lg font-medium leading-relaxed text-gray-800 pb-6 text-left"
           >
             {description}
           </p>
