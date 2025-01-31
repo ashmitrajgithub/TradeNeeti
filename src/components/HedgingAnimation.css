@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
 
   * {
     margin: 0%;
@@ -193,6 +197,7 @@
     width: 50vw;
     height: 10vh;
     gap: 10px; /* Add spacing between buttons */
+    
 }
 
 .home-button-item {
@@ -202,6 +207,7 @@
     padding: 0;
     margin: 0;
     gap: 10px;
+    
 }
 
 .home-button-item a {
@@ -212,19 +218,32 @@
     gap: 10px;
     color: #fdfdfd;
     text-decoration: none; /* Remove underline from links */
+    
 }
 
 .home-button-item button {
-    padding: 0 10px; /* Horizontal padding */
+    padding: 8px 20px; /* Balanced padding */
     height: 5vh;
-    border: 2px solid black;
+    border: 2px solid #08A44B; /* Green border */
+    background: linear-gradient(135deg, #08A44B, #06A038); /* Gradient for depth */
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 25px; /* More rounded */
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color: green;
-    color: white; /* Make button text readable */
-    cursor: pointer; /* Add a pointer cursor on hover */
+    /* transition: all 0.3s ease-in-out; Smooth animation */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
 
+.home-button-item button:hover {
+    background: linear-gradient(135deg, #000, #333); /* Dark gradient on hover */
+    color: white;
+    transform: scale(1.08); /* Slight pop effect */
+    box-shadow: 0px 6px 12px rgba(108, 255, 155, 0.3); /* Enhanced shadow */
+}
 
 @media (min-width: 1400px) {
     .home .profession-container .profession-box {
@@ -478,7 +497,7 @@
         height: 15vh;
         width:50vw;
         overflow: hidden;
-        border-radius: 5%;
+        border-radius: 13%;
         padding-left: 3px;
         padding-right: 3px;
         /* background-color: #08d55050; */
