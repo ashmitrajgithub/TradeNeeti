@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import { useState } from "react"
 
 const QuestionsItems = ({ quest, ans }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
 
   const toggleAnswer = () => {
-    setIsOpen((prevState) => !prevState);
-  };
+    setIsOpen((prevState) => !prevState)
+  }
 
   return (
-    <div className="flex flex-col  w-3/3 md:w-3/4 mb-6 ">
+    <div className="flex flex-col w-full mb-6">
       <div
         className="flex items-center justify-between text-lg font-medium cursor-pointer p-3 border-2 border-gray-300 rounded-t-lg"
         onClick={toggleAnswer}
@@ -31,14 +31,15 @@ const QuestionsItems = ({ quest, ans }) => {
         </div>
       </div>
       <div
-        className={`overflow-hidden  transition-all duration-300 ${
+        className={`overflow-hidden transition-all duration-300 ${
           isOpen ? "max-h-screen p-4 border-t-0 border-2 border-gray-300 rounded-b-lg" : "max-h-0"
         }`}
       >
         <div className="text-base text-white leading-relaxed">{ans}</div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default QuestionsItems;
+export default QuestionsItems
+

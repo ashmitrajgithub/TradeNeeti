@@ -31,7 +31,7 @@ function CurrentStatus() {
         <div className="">
           <div className="">
             <p className="text-center font-bold pb-7 text-ls md:text-2xl ">
-              Overwhelming support from GTF family
+              Overwhelming support from TNA family
             </p>
           </div>
           <ul className="grid grid-cols-1 gap-5 items-center md:grid-cols-2 lg:grid-cols-3 md:p-8 ">
@@ -42,15 +42,15 @@ function CurrentStatus() {
                 <figure>
                   <img 
                     src="https://www.gettogetherfinance.com/frontend_asset/main_pages/images/winner.webp" 
-                    alt="Certified GTF Traders" 
+                    alt="Certified TNA Traders" 
                   />
                 </figure>
                 <div>
                   <strong>
                     {inView ? (
                       <CountUp 
-                        start={1000} 
-                        end={300000} 
+                        start={100} 
+                        end={3000} 
                         duration={2} 
                         formattingFn={formatNumber} 
                       />
@@ -58,7 +58,7 @@ function CurrentStatus() {
                       "1K+"
                     )}
                   </strong>
-                  <p>Certified GTF Traders</p>
+                  <p>Certified TNA Traders</p>
                 </div>
               </div>
             </li>
@@ -76,8 +76,8 @@ function CurrentStatus() {
                   <strong>
                     {inView ? (
                       <CountUp 
-                        start={1000} 
-                        end={1800000} 
+                        start={200} 
+                        end={1000} 
                         duration={2} 
                         formattingFn={formatNumber} 
                       />
@@ -85,7 +85,7 @@ function CurrentStatus() {
                       "1K+"
                     )}
                   </strong>
-                  <p>Followers</p>
+                  <p>Certified TNA Traders</p>
                 </div>
               </div>
             </li>
@@ -130,8 +130,8 @@ function CurrentStatus() {
                   <strong>
                     {inView ? (
                       <CountUp 
-                        start={1000} 
-                        end={25000} 
+                        start={500} 
+                        end={2000} 
                         duration={2} 
                         formattingFn={formatNumber} 
                       />
@@ -139,7 +139,7 @@ function CurrentStatus() {
                       "1K+"
                     )}
                   </strong>
-                  <p>GTF Trader Community</p>
+                  <p>TNA Trader Community</p>
                 </div>
               </div>
             </li>
@@ -157,8 +157,8 @@ function CurrentStatus() {
                   <strong>
                     {inView ? (
                       <CountUp 
-                        start={1000} 
-                        end={1000000} 
+                        start={100} 
+                        end={1000} 
                         duration={2} 
                         formattingFn={formatNumber} 
                       />
@@ -166,7 +166,7 @@ function CurrentStatus() {
                       "1K+"
                     )}
                   </strong>
-                  <p>YouTube</p>
+                  <p>Youtube</p>
                 </div>
               </div>
             </li>
@@ -184,8 +184,8 @@ function CurrentStatus() {
                   <strong>
                     {inView ? (
                       <CountUp 
-                        start={1000} 
-                        end={200000} 
+                        start={10000} 
+                        end={100000} 
                         duration={2} 
                         formattingFn={formatNumber} 
                       />
@@ -193,7 +193,7 @@ function CurrentStatus() {
                       "1K+"
                     )}
                   </strong>
-                  <p>App Downloads</p>
+                  <p>WebSite Visits</p>
                 </div>
               </div>
             </li>
