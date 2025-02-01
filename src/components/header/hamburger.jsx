@@ -17,7 +17,7 @@ function Hamburger({toggleMenu})  {
                                 className="hover:text-blue-800"
                                 onClick={() => setIsNavOpen(false)}
                             >
-                                Why TNA
+                                A
                             </a>
                         </li>
                         <li>
@@ -26,7 +26,7 @@ function Hamburger({toggleMenu})  {
                                 className="hover:text-blue-800"
                                 onClick={() => setIsNavOpen(false)}
                             >
-                                Faculty
+                                B
                             </a>
                         </li>
                         <li>
@@ -35,7 +35,7 @@ function Hamburger({toggleMenu})  {
                                 className="hover:text-blue-800"
                                 onClick={() => setIsNavOpen(false)}
                             >
-                                Courses
+                                C
                             </a>
                         </li>
                         <li>
@@ -44,7 +44,7 @@ function Hamburger({toggleMenu})  {
                                 className="hover:text-blue-800"
                                 onClick={() => setIsNavOpen(false)}
                             >
-                                Apply Now
+                                D
                             </a>
                         </li>
                         <li>
@@ -53,7 +53,7 @@ function Hamburger({toggleMenu})  {
                                 className="hover:text-blue-800"
                                 onClick={() => setIsNavOpen(false)}
                             >
-                                Contact Us
+                                E
                             </a>
                         </li>
                     </ul>

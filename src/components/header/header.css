@@ -17,13 +17,11 @@
 @media (min-width:300px) and (max-width: 799px) {
 
   .headerfirst{
-    display:none;
+    visibility: hidden;
   }
 
   .headersecond{
-    width: 100%;
     position:fixed;
-    top:-0.15vh;
-    z-index: 1000;
+    top:0;
   }
 }

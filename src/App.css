@@ -6,47 +6,25 @@
 font-family: 'Poppins', sans-serif; */
 font-family: "Playfair Display", serif;
 }
-
-
-html, body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  border: none;
-  outline: none;
-  scroll-behavior: smooth;
-}
-
 .hamburger{
 
   width: 100%;
-  /* background: linear-gradient(
+  height: 100vh;
+  background: linear-gradient(
           180deg,
-          rgba(168, 168, 168, 0.7) 0%,
-          rgba(255, 255, 255, 0.6) 40%,
-          rgba(169, 169, 169, 0.7) 100%
+          rgba(174, 217, 255, 0.7) 0%,
+          rgba(234, 179, 255, 0.6) 50%,
+          rgba(233, 211, 255, 0.7) 100%
       ),
       radial-gradient(
           circle at 50% 50%,
           rgba(255, 255, 255, 0.7) 0%,
           rgba(255, 255, 255, 0.5) 0%,
           rgba(255, 255, 255, 0) 50%
-      ); */
-      background-color: #2F2F2F;
-      color: white;
-      border-bottom-left-radius: 5%;
-      border-bottom-right-radius: 5%;
-
+      );
   background-blend-mode: overlay;
-  /* backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px); */
-  height: 50vh;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   z-index: 100;
 }
 
