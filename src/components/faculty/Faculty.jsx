@@ -97,7 +97,7 @@ export default function Faculty() {
         </button>
       </div>
 
-      <div className="flex justify-center space-x-2 mb-11">
+      {/* <div className="flex justify-center space-x-2 mb-11">
         {facultyMembers.map((_, index) => (
           <div
             key={index}
@@ -105,7 +105,7 @@ export default function Faculty() {
             onClick={() => setCurrentIndex(index)}
           />
         ))}
-      </div>
+      </div> */}
 
       <Courses />
     </section>

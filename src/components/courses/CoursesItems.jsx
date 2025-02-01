@@ -18,7 +18,7 @@ const CoursesItems = ({ image, name, detail }) => {
           </div>
           <div className="flex justify-start gap-6">
             <button className="px-4 py-2 rounded bg-black text-white font-bold text-sm transition-colors duration-300 hover:bg-gray-300 hover:text-black">
-              done
+              Apply
             </button>
             {/* <button className="px-4" py-2 rounded bg-sky-500 text-white font-bold text-sm transition-colors duration-300 hover:bg-sky-600">
               code

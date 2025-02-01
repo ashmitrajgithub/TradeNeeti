@@ -27,7 +27,7 @@ function Footer() {
                 <div className="container mx-auto pl-4 pr-4 pb-4">
                     <div className="flex flex-wrap gap-4 justify-center">
                         <div className="w-5/12 xl:w-2/12">
-                            <h5 className="text-lg font-bold text-primary mb-2">Company</h5>
+                            <h5 className="text-lg font-bold text-primary mb-2">About Us</h5>
                             <ul className="list-none space-y-1">
                                 <li>
                                     <a
@@ -36,7 +36,7 @@ function Footer() {
                                         rel="noreferrer"
                                         className="text-gray-600 hover:text-primary transition"
                                     >
-                                        About Us
+                                      Home
                                     </a>
                                 </li>
                                 <li>
@@ -46,7 +46,7 @@ function Footer() {
                                         rel="noreferrer"
                                         className="text-gray-600 hover:text-primary transition"
                                     >
-                                        Blog
+                                        About Us
                                     </a>
                                 </li>
                                 <li>

@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import emailjs from "@emailjs/browser";
 
-function ContactUs() {
+function ContactUs({ contactRef }) {
     const form = useRef(null);
 
     const sendEmail = (e) => {
@@ -10,10 +10,10 @@ function ContactUs() {
 
         emailjs
             .sendForm(
-                "service_ahecjz8", // Replace with your EmailJS service ID
-                "template_vdv9yql", // Replace with your EmailJS template ID
+                "service_ahecjz8", 
+                "template_vdv9yql",
                 form.current,
-                "qmRPDPjcn-kUU_oL2" // Replace with your EmailJS public key
+                "qmRPDPjcn-kUU_oL2"
             )
             .then(
                 (result) => {
@@ -29,9 +29,9 @@ function ContactUs() {
     };
 
     return (
-        <div className="px-4 mx-auto relative bg-white overflow-hidden z-10">
-            <div className="mx-auto flex flex-col lg:flex-row justify-around items-center ">
-                <div className="hidden lg:block z-20 " style={{ width: "500px", height: "500px" }}>
+        <div ref={contactRef} className="px-4 mx-auto relative bg-white overflow-hidden z-10">
+            <div className="mx-auto flex flex-col lg:flex-row justify-around items-center">
+                <div className="hidden lg:block z-20" style={{ width: "500px", height: "500px" }}>
                     <DotLottieReact src="/assets/lottieimage.lottie" loop autoplay />
                 </div>
 
