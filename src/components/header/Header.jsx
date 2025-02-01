@@ -16,7 +16,7 @@ function Header({ toggleLocationPopup }) {
 
   return (
     <div className="main-header ">
-      <div className="w-full topbar py-2 bg-[rgb(215,217,219)] fixed top-0 z-50 main-header headerfirst">
+      <div className="w-full topbar py-2 bg-[rgb(215,217,219)] fixed top-0 z-50 main-header top-0 headerfirst">
         <div className="headerInfo bg-brown-700 flex flex-wrap justify-between items-center gap-2 text-sm sm:text-base px-4 sm:px-16">
           <div className="headerContact flex flex-wrap gap-4 items-center">
             <a href="tel:+91-6206256034" className="flex items-center gap-1">

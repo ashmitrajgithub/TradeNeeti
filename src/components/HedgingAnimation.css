@@ -6,7 +6,7 @@ html, body {
 }
 
   * {
-    margin: 0%;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -406,6 +406,11 @@ html, body {
 
 
 @media (min-width:300px) and (max-width: 799px) {
+
+    *{
+        max-width:100%;
+        overflow-x: hidden;
+    }
    .home{
         position:absolute;
         top:15vw;
@@ -421,18 +426,19 @@ html, body {
         align-items: center;
         height:110vh;
         margin-top: 45px;
+        max-width: 99%;
     }
 
     .home .home-content {
         position: relative;
-        width:100vw;
+        width:99%;
         overflow: hidden;
         height: 40vh;
     }
 
     .home .home-content .profession-gif {
-        width:100vw;
         height: 40vh;
+        width: fit-content;
         scale: 1.3;
         overflow: hidden;
         margin-left: 15vw;
