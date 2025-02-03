@@ -198,13 +198,9 @@ function Footer() {
                         </div>
 
                         <div className="w-5/12 xl:w-4/12">
-    <h5 className="text-lg font-bold text-yellow-200 mb-2">Our Location</h5>
-    
-    <div 
-        className="w-full h-40 xl:h-56 overflow-hidden rounded-lg shadow-lg"
-        style={{ height: "150px", width: "500px" }} // Large screen inline CSS
-    >
-        <iframe 
+                            <h5 className="text-lg font-bold text-yellow-200 mb-2">Our Location</h5>
+                            <div className="w-full h-40 xl:h-56 overflow-hidden rounded-lg shadow-lg">
+                            <iframe 
             title="Google Map"
             className="w-full h-full lg:w-[600px] lg:h-[400px]" // Tailwind for responsiveness
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d998.7716569839544!2d85.12343695146656!3d25.62291729491723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed59e0692cf2ff%3A0xdd17a34272129ed0!2sTRADENEETI%20ACADEMY!5e0!3m2!1sen!2sin!4v1738596085164!5m2!1sen!2sin"
@@ -212,9 +208,8 @@ function Footer() {
             loading="lazy" 
             referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
-    </div>
-</div>
-
+                            </div>
+                        </div>
                     </div>
 
                     <hr className="my-6 border-gray-300" />
