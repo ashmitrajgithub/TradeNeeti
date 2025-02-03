@@ -126,14 +126,14 @@ const App = () => {
             <img
               src="/assets/aka1.jpg"
               alt="Overlay Shape"
-              className="overlay-image2 img-fluid rounded-5 h-100 fit-cover"
+              className="overlay-image2"
               data-aos="fade-left"
               data-aos-duration="1000"
             />
             <img
               src="/assets/main.jpg"
               alt="Overlay Shape"
-              className="overlay-image2 img-fluid rounded-5 h-100 fit-cover"
+              className="overlay-image2"
               data-aos="fade-up"
               data-aos-duration="1000"
             />

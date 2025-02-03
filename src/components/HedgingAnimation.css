@@ -408,10 +408,9 @@ html, body {
 @media (min-width:300px) and (max-width: 799px) {
    .home{
         position:absolute;
-        top:15vw;
+        top:0vw;
         display: flex;
         flex-direction: column;
-        height:108vh;
         justify-content: space-between;
     }
 
@@ -419,7 +418,7 @@ html, body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height:110vh;
+        height:125vh;
         margin-top: 45px;
     }
 
@@ -427,7 +426,7 @@ html, body {
         position: relative;
         width:100vw;
         overflow: hidden;
-        height: 40vh;
+        height: 42vh;
     }
 
     .home .home-content .profession-gif {
@@ -468,19 +467,22 @@ html, body {
     .home .overlay2{
         display:flex;
         flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         width: 100vw;
-        height: 45vh;
+        max-height: 55vh;
         overflow: hidden;
         position: relative;
         padding-left: 6px;
         padding-right: 6px;
         filter: brightness(1.1);
+        gap:5px;
     }
 
     .home .overlay2 .overlay-image1{
-        height:30vh;
+        max-height:22vh;
         width:100vw;
-        border-radius: 5%;
+        border-radius: 25px;
         padding-left: 3px;
         padding-right: 3px;
         /* background-color: #08d55050; */
@@ -490,30 +492,31 @@ html, body {
     .image-style{
         padding-top: 1vh;
         display: flex;
-        gap: 2px;
+        height: 30vh;
+        gap:3px;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
 
     .image-style .overlay-image2{
-        height: 15vh;
+        max-height: 34vh;
         width:50vw;
         overflow: hidden;
-        border-radius: 13%;
+        border-radius:25px;
         padding-left: 3px;
         padding-right: 3px;
-        /* background-color: #08d55050; */
-        object-fit: cover;
+        object-fit:cover;
     }
 
     .miditem .scontainer{
         display: flex;
         flex-direction: column;
         width: 6vw;
-        height: 21vh;
+        height: 30vh;
         margin-right: 6vw;
-        justify-content: space-between;
+        margin-top: 0vh;
+        gap:2.5vh;
     }
 
     .miditem .scontainer a{
@@ -526,37 +529,44 @@ html, body {
     .miditem{
         display: flex;
         width: 100vw;
-        height: 22vh;
+        height: 30vh;
         overflow: hidden;
         justify-content: space-between;
+        margin-left: 0vw;
     }
 
     .home-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 50vw;
-        height: 22vh;
-        margin-left:4vw;
+        height: 30vh;
+        overflow: hidden;
+        gap: 0px;
     }
 
     .home-button-item{
         display: flex;
+        align-items:flex-start;
         flex-direction: column;
         margin-left: 0;
-        gap: 0px;
+        gap: 1.5vh;
+        height: 30vh;
+        overflow: hidden;
     }
 
     .home-button-item a{
         display: flex;
         align-items: center;
         justify-content:center;
-        gap: 10px;
+        gap: 15px;
         color: #fdfdfd;
     }
 
     .home-button-item button {
-        margin-bottom:1vh;
         padding-left: 10px;
         padding-right: 10px;
-        height: 4.5vh;
+        height: 5vh;
         align-items: center;
         justify-content: center;
         background-color:brown;
