@@ -54,7 +54,7 @@ function ContactUs({ contactRef }) {
                             <label className="block text-gray-800 mb-1" htmlFor="message">Your Message</label>
                             <textarea className="w-full px-4 py-2 bg-slate-50 rounded-lg focus:outline-none focus:ring-2 focus:ring-[rgb(233,180,171)] transition duration-300" rows="4" placeholder="Enter your message" name="message" id="message" required></textarea>
                         </div>
-                        <button className="w-full bg-[rgb(233,180,171)] text-gray-900 py-2 px-4 rounded-lg hover:bg-[rgb(212,148,136)] transition duration-300" type="submit">
+                        <button className="w-full text-gray-900 py-2 px-4 rounded-lg hover:bg-[rgb(212,148,136)] transition duration-300" type="submit" style={{backgroundColor:'brown', color:'white'}}>
                             Send Message
                         </button>
                     </form>

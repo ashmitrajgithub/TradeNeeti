@@ -17,7 +17,7 @@ const CoursesItems = ({ image, name, detail }) => {
             <p className="text-base leading-6 text-gray-600 text-justify">{detail}</p>
           </div>
           <div className="flex justify-start gap-6">
-            <button className="px-4 py-2 rounded bg-black text-white font-bold text-sm transition-colors duration-300 hover:bg-gray-300 hover:text-black">
+            <button className="px-4 py-2 rounded bg-red text-white font-bold text-sm transition-colors duration-300 hover:bg-gray-300 hover:text-black" style={{ backgroundColor: 'brown' }}>
               Apply
             </button>
             {/* <button className="px-4" py-2 rounded bg-sky-500 text-white font-bold text-sm transition-colors duration-300 hover:bg-sky-600">
