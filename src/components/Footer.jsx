@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
         
-            <footer className="bg-[rgb(215,217,219)] relative overflow-hidden z-10   shadow-2xl  footer">
+            <footer className="bg-[rgb(215,217,219)] relative overflow-hidden z-10   shadow-2xl  footer footer-main">
                 <div className="flex flex-wrap justify-between items-center mb-5 gap-4 p-5 ">
                     <img src="/assets/Tradeneeti_Logo.png" alt="logo" className="w-32 mb-2" />
                     <div className="flex gap-4">

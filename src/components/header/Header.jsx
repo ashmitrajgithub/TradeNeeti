@@ -16,45 +16,45 @@ function Header({ toggleLocationPopup }) {
 
   return (
     <div className="main-header ">
-      <div className="w-full topbar py-2 bg-[rgb(215,217,219)] fixed top-0 z-50 main-header headerfirst">
+      <div className="w-full topbar py-2 bg-black fixed top-0 z-50 main-header headerfirst">
         <div className="headerInfo bg-brown-700 flex flex-wrap justify-between items-center gap-2 text-sm sm:text-base px-4 sm:px-16">
           <div className="headerContact flex flex-wrap gap-4 items-center">
             <a href="tel:+91-6206256034" className="flex items-center gap-1">
-              <FaPhoneAlt size={16} className="text-gray-600 hover:text-gray-900" />
-              <span className="hidden sm:block text-gray-600 hover:text-gray-900">+91-6206256034</span>
+              <FaPhoneAlt size={16} className="text-white hover:text-gray-900" />
+              <span className="hidden sm:block text-white hover:text-gray-900">+91-6206256034</span>
             </a>
             <a href="mailto:support@tradeneeti.com" className="flex items-center gap-1">
-              <MdEmail size={16} className="text-gray-600 hover:text-gray-900" />
-              <span className="hidden sm:block text-gray-600 hover:text-gray-900">support@tradeneeti.com</span>
+              <MdEmail size={16} className="text-white hover:text-gray-900" />
+              <span className="hidden sm:block text-white hover:text-gray-900">support@tradeneeti.com</span>
             </a>
           </div>
 
           <div className="socialInfo flex gap-3">
             <a href="#" target="_blank">
-              <FaInstagramSquare size={20} className="text-gray-600 hover:text-gray-900" />
+              <FaInstagramSquare size={20} className="text-white hover:text-gray-900" />
             </a>
             <a href="#" target="_blank">
-              <FaFacebook size={20} className="text-gray-600 hover:text-gray-900" />
+              <FaFacebook size={20} className="text-white hover:text-gray-900" />
             </a>
             <a href="#" target="_blank">
-              <IoLogoTwitter size={20} className="text-gray-600 hover:text-gray-900" />
+              <IoLogoTwitter size={20} className="text-white hover:text-gray-900" />
             </a>
             <a href="#" target="_blank">
-              <FaTelegram size={20} className="text-gray-600 hover:text-gray-900" />
+              <FaTelegram size={20} className="text-white hover:text-gray-900" />
             </a>
             <button onClick={toggleLocationPopupHandler}>
-              <FaMapMarkerAlt size={20} className="text-gray-600 hover:text-gray-900" />
+              <FaMapMarkerAlt size={20} className="text-white hover:text-gray-900" />
             </button>
           </div>
         </div>
       </div>
 
-      <header className="w-full p-2 px-5 sm:px-3  bg-[rgb(215,217,219)] md:pl-7 md:pr-7 top-9 fixed z-50 main-header headersecond">
+      <header className="w-full p-2 px-5 sm:px-3  bg-black md:pl-7 md:pr-7 top-9 fixed z-50 main-header headersecond">
         <div className="flex justify-between items-center">
           <div>
-            <img src="/assets/Tradeneeti_Logo.png" alt="TREADNEETI" className="h-7 w-auto sm:h-10" />
+            <img src="public/assets/BrandLogo.png" alt="TREADNEETI" className="h-7 w-auto sm:h-10" />
           </div>
-          <div className="hidden md:flex justify-evenly gap-8 font-semibold">
+          <div className="hidden md:flex justify-evenly gap-8 font-semibold text-white">
             <a href="#">Home</a>
             <a href="#">Profile</a>
             <a href="#">Contact Us</a>

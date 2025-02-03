@@ -2,6 +2,10 @@
   width:100%;
 }
 
+.headersecond{
+  background-color: brown;
+}
+
 @media (max-width: 1024px) {  /* For medium screens like tablets */
   .main-header{
     width:100%;
