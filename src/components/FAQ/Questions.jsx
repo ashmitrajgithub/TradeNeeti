@@ -57,7 +57,7 @@ const Questions = () => {
 
   return (
     <>
-      <div className="relative h-36">
+      <div className="relative h-36" id="knowledge-center">
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-300 to-transparent z-20"></div>
       </div>
 

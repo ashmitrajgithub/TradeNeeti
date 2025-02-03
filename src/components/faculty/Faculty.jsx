@@ -52,6 +52,7 @@ export default function Faculty() {
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
+      id="faculty"
     >
       <div className="text-center max-w-2xl mx-auto mb-12">
         <h2 className="text-4xl font-bold text-gray-800">Meet Our Faculty</h2>

@@ -146,6 +146,7 @@ import { FaInstagramSquare, FaFacebook, FaTelegram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoTwitter } from "react-icons/io";
 import { IoLogoWhatsapp } from "react-icons/io5";
+import { Link } from "react-scroll";
 
 function Footer() {
     return (
@@ -174,24 +175,48 @@ function Footer() {
                         <div className="w-5/12 xl:w-2/12">
                             <h5 className="text-lg font-bold text-yellow-200 mb-2">About Us</h5>
                             <ul className="list-none space-y-1">
-                                <li><a href="#" className="text-white hover:text-yellow-300 transition">Home</a></li>
-                                <li><a href="#" className="text-white hover:text-yellow-300 transition">About Us</a></li>
+                            <li>
+                                    <Link to="home" smooth={true} duration={500} offset={-150} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                        Home
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="why-us" smooth={true} duration={500} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                        About Us
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
 
                         <div className="w-5/12 xl:w-3/12">
                             <h5 className="text-lg font-bold text-yellow-200 mb-2">Resources</h5>
                             <ul className="list-none space-y-1">
-                                <li><a href="#" className="text-white hover:text-yellow-300 transition">Faculty</a></li>
-                                <li><a href="#" className="text-white hover:text-yellow-300 transition">Courses</a></li>
-                                <li><a href="#" className="text-white hover:text-yellow-300 transition">Apply Now</a></li>
+                            <li>
+                                    <Link to="faculty" smooth={true} duration={500} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                        Faculty
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="courses" smooth={true}  offset={-90} duration={500} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                        Courses
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link to="contact-us" smooth={true} duration={500} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                        Apply Now
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
 
                         <div className="w-5/12 xl:w-2/12">
                             <h5 className="text-lg font-bold text-yellow-200 mb-2">Help and Support</h5>
                             <ul className="list-none space-y-1">
-                                <li><a href="#" className="text-white hover:text-yellow-300 transition">Knowledge Center</a></li>
+                            <li>
+                                    <Link to="knowledge-center" smooth={true} offset={-90} duration={500} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                        Knowledge Center
+                                    </Link>
+                                </li>
                                 <li><a href="https://api.whatsapp.com/send?phone=+916206256034&text=Hello !" className="text-white hover:text-yellow-300 transition">Contact Us</a></li>
                                 <li><a href="tel:+916206256034" className="text-white hover:text-yellow-300 transition">Premium Support</a></li>
                             </ul>
@@ -199,7 +224,7 @@ function Footer() {
 
                         <div className="w-5/12 xl:w-4/12">
                             <h5 className="text-lg font-bold text-yellow-200 mb-2">Our Location</h5>
-                            <div className="w-full h-40 xl:h-56 overflow-hidden rounded-lg shadow-lg">
+                            <div className="w-86 h-40 xl:h-48 overflow-hidden rounded-lg shadow-lg">
                             <iframe 
             title="Google Map"
             className="w-full h-full lg:w-[600px] lg:h-[400px]" // Tailwind for responsiveness

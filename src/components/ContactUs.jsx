@@ -29,7 +29,7 @@ function ContactUs({ contactRef }) {
     };
 
     return (
-        <div ref={contactRef} className="px-4 mx-auto relative bg-white overflow-hidden z-10">
+        <div ref={contactRef} className="px-4 mx-auto relative bg-white overflow-hidden z-10" id="contact-us">
             <div className="mx-auto flex flex-col lg:flex-row justify-around items-center">
                 <div className="hidden lg:block z-20" style={{ width: "500px", height: "500px" }}>
                     <DotLottieReact src="/assets/lottieimage.lottie" loop autoplay />

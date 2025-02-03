@@ -57,7 +57,7 @@ function WhyUs() {
 
   return (
     <>
-      <section className="relative flex flex-col items-center bg-[rgb(231,226,216)] md:py-8 lg:py-13">
+      <section className="relative flex flex-col items-center bg-[rgb(231,226,216)] md:py-8 lg:py-13" id="why-us">
         {/* Title with AOS animation */}
         <h2
           className="text-center m-4 mt-9  lg:mt-12 text-2xl  md:pb-10 md:text-4xl font-bold"

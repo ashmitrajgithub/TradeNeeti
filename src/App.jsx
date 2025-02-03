@@ -8,49 +8,46 @@ import CurrentStatus from './components/CurrentStatus';
 import Location from './components/location/Location';
 import LoadingScreen from './components/LoadingScreen';
 import WhyUs from './components/whyUs/WhyUs';
-import Home from './components/Home'
+import Home from './components/Home';
 import Faculty from './components/faculty/Faculty';
-import Courses from './components/courses/Courses'
-
+import Courses from './components/courses/Courses';
 
 function App() {
-  const [isLocationPopupOpen, setIsLocationPopupOpen] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+    const [isLocationPopupOpen, setIsLocationPopupOpen] = useState(false);
+    const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    // Simulate loading time for 2 seconds
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 500);
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 500);
 
-    return () => clearTimeout(timer);
-  }, []);
+        return () => clearTimeout(timer);
+    }, []);
 
-  const toggleLocationPopup = () => {
-    setIsLocationPopupOpen(!isLocationPopupOpen);
-  };
+    const toggleLocationPopup = () => {
+        setIsLocationPopupOpen(!isLocationPopupOpen);
+    };
 
-  return (
-    <>
-      {isLoading ? (
-        <LoadingScreen />
-      ) : (
-        <div className="app">
-          <Header toggleLocationPopup={toggleLocationPopup} />
-          <Home />
-          <WhyUs id="why-us" />
-<Faculty id="faculty" />
-<Courses id="courses" />
-          <CurrentStatus />
-          <Questions id="questions" />
-<ContactUs id="contact-us" />
-          <Footer />
-          {isLocationPopupOpen && <Location closePopup={toggleLocationPopup} />}
-        </div>
-      )}
-    </>
-  );
+    return (
+        <>
+            {isLoading ? (
+                <LoadingScreen />
+            ) : (
+                <div className="app">
+                    <Header toggleLocationPopup={toggleLocationPopup} />
+                    <Home id="home" />
+                    <WhyUs id="why-us" />
+                    <Faculty id="faculty" />
+                    <Courses id="courses" />
+                    <CurrentStatus />
+                    <Questions id="knowledge-center" />
+                    <ContactUs id="contact-us" />
+                    <Footer />
+                    {isLocationPopupOpen && <Location closePopup={toggleLocationPopup} />}
+                </div>
+            )}
+        </>
+    );
 }
 
 export default App;
-
