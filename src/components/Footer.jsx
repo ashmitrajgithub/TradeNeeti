@@ -176,12 +176,12 @@ function Footer() {
                             <h5 className="text-lg font-bold text-yellow-200 mb-2">About Us</h5>
                             <ul className="list-none space-y-1">
                             <li>
-                                    <Link to="home" smooth={true} duration={500} offset={-150} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                    <Link to="home" smooth={true} duration={200} offset={-150} className="text-white hover:text-yellow-300 transition cursor-pointer">
                                         Home
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="why-us" smooth={true} duration={500} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                    <Link to="why-us" smooth={true} duration={200} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
                                         About Us
                                     </Link>
                                 </li>
@@ -192,17 +192,17 @@ function Footer() {
                             <h5 className="text-lg font-bold text-yellow-200 mb-2">Resources</h5>
                             <ul className="list-none space-y-1">
                             <li>
-                                    <Link to="faculty" smooth={true} duration={500} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                    <Link to="faculty" smooth={true} duration={200} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
                                         Faculty
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="courses" smooth={true}  offset={-90} duration={500} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                    <Link to="courses" smooth={true}  offset={-90} duration={200} className="text-white hover:text-yellow-300 transition cursor-pointer">
                                         Courses
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="contact-us" smooth={true} duration={500} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                    <Link to="contact-us" smooth={true} duration={200} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
                                         Apply Now
                                     </Link>
                                 </li>
@@ -213,7 +213,7 @@ function Footer() {
                             <h5 className="text-lg font-bold text-yellow-200 mb-2">Help and Support</h5>
                             <ul className="list-none space-y-1">
                             <li>
-                                    <Link to="knowledge-center" smooth={true} offset={-90} duration={500} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                    <Link to="knowledge-center" smooth={true} offset={-90} duration={200} className="text-white hover:text-yellow-300 transition cursor-pointer">
                                         Knowledge Center
                                     </Link>
                                 </li>
