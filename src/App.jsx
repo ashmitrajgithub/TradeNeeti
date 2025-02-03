@@ -17,18 +17,11 @@ function App() {
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        const handleLoad = () => {
-            setTimeout(() => {
-                setIsLoading(false);
-            }, 200); // Add a small delay for smooth transition
-        };
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 500);
 
-        // Listen to the window load event to detect when 90% of content is loaded
-        window.addEventListener('load', handleLoad);
-
-        return () => {
-            window.removeEventListener('load', handleLoad);
-        };
+        return () => clearTimeout(timer);
     }, []);
 
     const toggleLocationPopup = () => {
