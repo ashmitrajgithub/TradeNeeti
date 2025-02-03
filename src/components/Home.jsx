@@ -6,6 +6,7 @@ import { FaInstagramSquare, FaFacebook, FaTelegram, FaMapMarkerAlt, FaWhatsapp, 
 import { IoLogoTwitter } from "react-icons/io";
 import { MdMail } from "react-icons/md";
 import { FaBookOpenReader } from "react-icons/fa6";
+import { Link } from "react-scroll";
 
 const App = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -87,25 +88,27 @@ const App = () => {
           <div className="home-button">
             <ul className="home-button-item">
               <li>
-                <button><a href="#"><FaBookOpenReader />Demo Class</a></button>
+                <button><Link to="contact-us" smooth={true} duration={200} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                <FaBookOpenReader />       Apply Now
+                                    </Link></button>
               </li>
               <li>
-                <button><a href="#"><FaPhoneAlt />Call Us</a></button>
+                <button><a href="tel:+916206256034" target="_blank"><FaPhoneAlt />Call Us</a></button>
               </li>
               <li>
-                <button><a href="#"><FaWhatsapp />Whatsapp</a></button>
+                <button><a href="https://api.whatsapp.com/send?phone=+916206256034&text=Hello !" target="_blank"><FaWhatsapp />Whatsapp</a></button>
               </li>
               <li>
-                <button><a href="#"><FaMapMarkerAlt />Location</a></button>
+                <button><a href="https://maps.app.goo.gl/nysZCvyyBa1e1K3o7" target="_blank"><FaMapMarkerAlt />Location</a></button>
               </li>
             </ul>
           </div>
 
           <div className="scontainer">
-            <a href="#" target="_blank">
+            <a href="https://www.instagram.com/tradeneeti" target="_blank">
               <FaInstagramSquare size={25} />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.facebook.com/tradeneetiacademy" target="_blank">
               <FaFacebook size={25} />
             </a>
             <a href="#" target="_blank">
@@ -115,7 +118,9 @@ const App = () => {
               <FaTelegram size={25} />
             </a>
             <button>
+            <a href="mailto:support@tradeneeti.com" target="_blank">
               <MdMail size={25} />
+              </a>
             </button>
           </div>
         </div>

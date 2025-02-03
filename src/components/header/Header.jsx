@@ -5,6 +5,7 @@ import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import Hamburger from "./hamburger";
 import Location from "../location/Location";
+import { Link } from "react-scroll";
 import "./header.css";
 
 function Header({ toggleLocationPopup }) {
@@ -30,10 +31,10 @@ function Header({ toggleLocationPopup }) {
           </div>
 
           <div className="socialInfo flex gap-3">
-            <a href="#" target="_blank">
+            <a href="https://www.linkedin.com/company/tradeneeti-academy">
               <FaInstagramSquare size={20} className="text-white hover:text-gray-900" />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://www.facebook.com/tradeneetiacademy" target="_blank">
               <FaFacebook size={20} className="text-white hover:text-gray-900" />
             </a>
             <a href="#" target="_blank">
@@ -55,11 +56,16 @@ function Header({ toggleLocationPopup }) {
             <img src="/assets/BrandLogo.png" alt="TREADNEETI" className="h-7 w-auto sm:h-10" />
           </div>
           <div className="hidden md:flex justify-evenly gap-8 font-semibold text-white">
-            <a href="#">Home</a>
-            <a href="#">Profile</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Support</a>
-            <a href="#">Courses</a>
+          <Link to="home" smooth={true} duration={200} offset={-150} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                        Home
+                                    </Link>
+                                    <Link to="contact-us" smooth={true} duration={200} offset={-90} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                        Apply Now
+                                    </Link>
+            <a href="https://api.whatsapp.com/send?phone=+916206256034&text=Hello !">Support</a>
+            <Link to="courses" smooth={true}  offset={-90} duration={200} className="text-white hover:text-yellow-300 transition cursor-pointer">
+                                        Courses
+                                    </Link>
           </div>
           <button onClick={toggleMenu} className="md:hidden focus:outline-none">
             <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
