@@ -500,7 +500,7 @@ html, body {
     }
 
     .image-style .overlay-image2{
-        max-height: 34vh;
+        height: 28vh;
         width:50vw;
         overflow: hidden;
         border-radius:25px;
