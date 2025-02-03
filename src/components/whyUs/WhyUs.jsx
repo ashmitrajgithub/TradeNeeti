@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import WhytoJoin from "../WhytoJoin";
 import ServicesItem from "./WhyUsItems";
-import Faculty from "../faculty/Faculty";
 import useScrollAnimation from "../../UseScrollAnimation";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -85,8 +84,6 @@ function WhyUs() {
       <div data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <WhytoJoin />
       </div>
-
-      <Faculty />
     </>
   );
 }

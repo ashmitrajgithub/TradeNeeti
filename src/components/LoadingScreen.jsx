@@ -6,7 +6,7 @@ export default function LoadingScreen() {
         <div className="relative">
           <div className="animate-spin h-24 w-24 border-t-4 border-blue-500 border-solid rounded-full"></div>
           <img 
-            src="/assets/Loadingicon.png" 
+            src="/assets/logo.ico" 
             alt="Loading" 
             className="absolute inset-0 m-auto h-16 w-16"
           />

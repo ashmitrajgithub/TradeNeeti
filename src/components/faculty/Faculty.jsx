@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Twitter, Linkedin } from "lucide-react";
-import Courses from "../courses/Courses";
 
 export default function Faculty() {
   const facultyMembers = [
@@ -106,8 +105,6 @@ export default function Faculty() {
           />
         ))}
       </div> */}
-
-      <Courses />
     </section>
   );
 }

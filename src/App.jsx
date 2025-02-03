@@ -8,7 +8,10 @@ import CurrentStatus from './components/CurrentStatus';
 import Location from './components/location/Location';
 import LoadingScreen from './components/LoadingScreen';
 import WhyUs from './components/whyUs/WhyUs';
-import TextAnimation from './components/TextAnimation'
+import Home from './components/Home'
+import Faculty from './components/faculty/Faculty';
+import Courses from './components/courses/Courses'
+
 
 function App() {
   const [isLocationPopupOpen, setIsLocationPopupOpen] = useState(false);
@@ -34,11 +37,13 @@ function App() {
       ) : (
         <div className="app">
           <Header toggleLocationPopup={toggleLocationPopup} />
-          <TextAnimation />
-          <WhyUs />
+          <Home />
+          <WhyUs id="why-us" />
+<Faculty id="faculty" />
+<Courses id="courses" />
           <CurrentStatus />
-          <Questions />
-          <ContactUs />
+          <Questions id="questions" />
+<ContactUs id="contact-us" />
           <Footer />
           {isLocationPopupOpen && <Location closePopup={toggleLocationPopup} />}
         </div>
@@ -48,3 +53,4 @@ function App() {
 }
 
 export default App;
+

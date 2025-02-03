@@ -224,5 +224,5 @@ background: linear-gradient(
 
 .footer-main{
   background-color: brown;
-  filter: brightness(1.4);
+  /* filter: brightness(1.4); */
 }
