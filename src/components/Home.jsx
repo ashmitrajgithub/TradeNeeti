@@ -126,7 +126,7 @@ const App = () => {
         </div>
 
         <div className="overlay2">
-          <img src="/assets/teacher2.jpg" alt="Overlay Shape" className="overlay-image1" />
+          <img src="/assets/main.jpg" alt="Overlay Shape" className="overlay-image1" />
           <div className="image-style">
             <img
               src="/assets/aka1.jpg"
@@ -136,7 +136,7 @@ const App = () => {
               data-aos-duration="1000"
             />
             <img
-              src="/assets/main.jpg"
+              src="/assets/teacher2.jpg"
               alt="Overlay Shape"
               className="overlay-image2"
               data-aos="fade-up"
